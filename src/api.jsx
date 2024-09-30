@@ -50,5 +50,18 @@ export function USER_GET(token) {
     };
   }
 
+  export function PHOTO_POST(formData, token) {
+    return {
+      url: API_URL + '/api/photo',
+      options: {
+        method: 'POST',
+        headers: {
+          Authorization: 'Bearer ' + token,
+        },
+        body: formData,
+      },
+    };
+  }
+
 
 
