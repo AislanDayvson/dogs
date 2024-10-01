@@ -15,10 +15,6 @@
 }
 
 .view{
-    grid-area: 1/1;
-}
-
-.view{
     background: rgba(0, 0, 0, 0.3);
     color: white;
     font-size: 1rem;
@@ -26,6 +22,7 @@
     display: none;
     align-items: center;
     justify-content: center;
+    grid-area: 1/1;
 }
 
 .photo:hover .view{
@@ -40,7 +37,6 @@
     margin-right: .25rem;
     background: url('../../Assets/visualizacao.svg') no-repeat;
 }
-
 
 @media (max-width: 40rem){
     .photo:nth-child(2){
