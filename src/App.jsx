@@ -11,6 +11,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Login from './components/login/Login'
 import { UserStorage } from './userContext'
 import ProtectedRoute from './Components/helper/ProtectedRoute'
+import UserProfile from './components/user/UserProfile'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
               <Route path='login/*' element={<Login />}/>
               <Route path='conta/*' element={<ProtectedRoute><User/></ProtectedRoute>}/>  
               <Route path='foto/:id' element={<Photo />}/>
+              <Route path='perfil/:user' element={<UserProfile />}/>
             </Routes>
           <Footer />
         </UserStorage>
