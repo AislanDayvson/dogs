@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './components/Home'
 import User from './Components/user/User'
+import Photo from './components/photo/Photo'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Login from './components/login/Login'
 import { UserStorage } from './userContext'
@@ -21,6 +22,7 @@ const App = () => {
               <Route path='/' element={<Home />}/>
               <Route path='login/*' element={<Login />}/>
               <Route path='conta/*' element={<ProtectedRoute><User/></ProtectedRoute>}/>  
+              <Route path='foto/:id' element={<Photo />}/>
             </Routes>
           <Footer />
         </UserStorage>
