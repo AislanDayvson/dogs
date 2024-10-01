@@ -2,7 +2,10 @@ import React from 'react'
 
 const UserStats = () => {
   return (
-    <div>UserStats</div>
+    
+    <div>
+      <Head title='Estatísticas'/>
+      Estatísticas</div>
   )
 }
 

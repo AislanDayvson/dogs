@@ -27,6 +27,7 @@ const LoginCreate = () => {
   return (
     <section className='animeLeft'>
       <h1 className='title'>Cadastre-se</h1>
+      <Head title='Crie sua conta'/>
       <form onSubmit={handleSubmit}>
         <Input label='Usuário' type='text' name='username' {...username} />
         <Input label='E-mail' type='email' name='email' {...email} />
