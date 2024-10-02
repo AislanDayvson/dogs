@@ -8,6 +8,7 @@ import NotFound from '../NotFound'
 import Feed from '../feed/Feed'
 import Head from '../helper/Head'
 
+
 const User = () => {
   const {data} = React.useContext(UserContext)
   return (
