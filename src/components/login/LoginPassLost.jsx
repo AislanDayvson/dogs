@@ -19,7 +19,7 @@ const LoginPassLost = () => {
     }
   }
   return (
-    <section className='animeLeft'>
+    <section>
       <h1 className='title'>Perdeu a senha?</h1>
       <Head title='Perdeu sua senha?'/>
       {data ? <p style={{color: '#4c1'}}>{data}</p> : <form onSubmit={handleSubmit}>

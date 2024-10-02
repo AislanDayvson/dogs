@@ -36,7 +36,7 @@ const LoginPassReset = () => {
   }
 
   return (
-    <section className='animeLeft'>
+    <div>
       <h1 className='title'>Resete a Senha</h1>
       <form onSubmit={handleSubmit}>
         <Head title='Resete sua senha'/>
@@ -45,7 +45,7 @@ const LoginPassReset = () => {
         
       </form>
       <Error error={error}/>
-    </section>
+    </div>
   )
 }
 
