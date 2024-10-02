@@ -12,7 +12,6 @@ import Login from './components/login/Login'
 import { UserStorage } from './userContext'
 import ProtectedRoute from './Components/helper/ProtectedRoute'
 import UserProfile from './components/user/UserProfile'
-import NotFound from './components/NotFound'
 
 const App = () => {
   return (
@@ -27,7 +26,6 @@ const App = () => {
               <Route path='conta/*' element={<ProtectedRoute><User/></ProtectedRoute>}/>  
               <Route path='foto/:id' element={<Photo />}/>
               <Route path='perfil/:user' element={<UserProfile />}/>
-              <Route path='*' element={<NotFound />}/>
             </Routes>
           </main>
           <Footer />
