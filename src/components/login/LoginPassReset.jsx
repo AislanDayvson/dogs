@@ -1,12 +1,12 @@
 import React from 'react'
-import Input from '../forms/Input'
-import Button from '../forms/Button'
-import useForm from '../../hooks/useForm'
-import useFetch from '../../hooks/useFetch'
+import Input from '../Forms/Input'
+import Button from '../Forms/Button'
+import useForm from '../../Hooks/useForm'
+import useFetch from '../../Hooks/useFetch'
 import { PASSWORD_RESET } from '../../api'
-import Error from '../helper/Error'
+import Error from '../Helper/Error'
 import { useNavigate } from 'react-router-dom'
-import Head from '../helper/Head'
+import Head from '../Helper/Head'
 
 const LoginPassReset = () => {
   const [login, setLogin] = React.useState('')

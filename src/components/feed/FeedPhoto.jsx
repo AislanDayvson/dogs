@@ -2,8 +2,8 @@ import React from 'react'
 import FeedPhotosItem from './FeedPhotosItem'
 import useFetch from '../../Hooks/useFetch'
 import { PHOTOS_GET } from '../../api'
-import Error from '../helper/Error'
-import Loading from '../helper/Loading'
+import Error from '../Helper/Error'
+import Loading from '../Helper/Loading'
 import styles from './FeedPhoto.module.css'
 
 const FeedPhoto = ({setModalPhoto, page, user, setInfinite}) => {

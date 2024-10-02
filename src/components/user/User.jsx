@@ -5,8 +5,8 @@ import UserPhotoPost from './UserPhotoPost'
 import UserStats from './UserStats'
 import { UserContext } from '../../userContext'
 import NotFound from '../NotFound'
-import Feed from '../feed/Feed'
-import Head from '../helper/Head'
+import Feed from '../Feed/Feed'
+import Head from '../Helper/Head'
 
 const User = () => {
   const {data} = React.useContext(UserContext)

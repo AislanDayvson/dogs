@@ -1,11 +1,11 @@
 import React from 'react'
-import Input from '../forms/Input'
-import Button from '../forms/Button'
-import useForm from '../../hooks/useForm'
-import useFetch from '../../hooks/useFetch'
+import Input from '../Forms/Input'
+import Button from '../Forms/Button'
+import useForm from '../../Hooks/useForm'
+import useFetch from '../../Hooks/useFetch'
 import { PASSWORD_LOST } from '../../api'
-import Error from '../helper/Error'
-import Head from '../helper/Head'
+import Error from '../Helper/Error'
+import Head from '../Helper/Head'
 
 const LoginPassLost = () => {
   const login = useForm()
