@@ -40,7 +40,7 @@ const LoginPassReset = () => {
       <h1 className='title'>Resete a Senha</h1>
       <form onSubmit={handleSubmit}>
         <Head title='Resete sua senha'/>
-        <Input label='Nova senha' type='password' name='password' {...password} />
+        <Input label='Senha Nova' type='password' name='password' {...password} />
         {loading ? <Button disabled>Resetando</Button> : <Button>Resetar</Button>}
         
       </form>
